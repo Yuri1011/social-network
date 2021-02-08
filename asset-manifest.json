@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/social-network/static/css/main.43e49471.chunk.css",
+    "main.js": "/social-network/static/js/main.8ab34cab.chunk.js",
+    "main.js.map": "/social-network/static/js/main.8ab34cab.chunk.js.map",
+    "runtime-main.js": "/social-network/static/js/runtime-main.3e0b76ed.js",
+    "runtime-main.js.map": "/social-network/static/js/runtime-main.3e0b76ed.js.map",
+    "static/js/2.ec252b9a.chunk.js": "/social-network/static/js/2.ec252b9a.chunk.js",
+    "static/js/2.ec252b9a.chunk.js.map": "/social-network/static/js/2.ec252b9a.chunk.js.map",
+    "static/js/3.4e489719.chunk.js": "/social-network/static/js/3.4e489719.chunk.js",
+    "static/js/3.4e489719.chunk.js.map": "/social-network/static/js/3.4e489719.chunk.js.map",
+    "index.html": "/social-network/index.html",
+    "static/css/main.43e49471.chunk.css.map": "/social-network/static/css/main.43e49471.chunk.css.map",
+    "static/js/2.ec252b9a.chunk.js.LICENSE.txt": "/social-network/static/js/2.ec252b9a.chunk.js.LICENSE.txt",
+    "static/media/logo.8a98c3eb.jpg": "/social-network/static/media/logo.8a98c3eb.jpg",
+    "static/media/steampunk.053b7fa5.jpg": "/social-network/static/media/steampunk.053b7fa5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e0b76ed.js",
+    "static/js/2.ec252b9a.chunk.js",
+    "static/css/main.43e49471.chunk.css",
+    "static/js/main.8ab34cab.chunk.js"
+  ]
+}
