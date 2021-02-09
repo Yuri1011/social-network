@@ -1,17 +1,16 @@
-import contentBackground from "../../assets/images/steampunk.jpg";
 import c from './Profile.module.css';
 import {MyPosts} from "./MyPosts/MyPosts";
+import {ProfileInfo} from "./ProfileInfo/ProfileInfo";
 
 export const Profile = () => {
+    let posts = [
+        {message: 'Hi have are you?', like: 15},
+        {message: 'Good!', like: 20}
+    ]
     return (
         <div>
-            <div className={c.content}>
-                <img src={contentBackground} alt="img"/>
-            </div>
-            <div>
-                ava + description
-            </div>
-           <MyPosts/>
+            <ProfileInfo/>
+            <MyPosts posts={posts}/>
         </div>
     )
 }

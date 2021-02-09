@@ -1,16 +1,19 @@
-import s from './MyPosts.module.css';
+import c from './MyPosts.module.css';
 import {Post} from "./Post/Post";
 
-export const MyPosts = () => {
+export const MyPosts = (props) => {
+
+    let postsElements = props.posts.map((elem) => <Post message={elem.message} like={elem.like}/>)
     return (
-        <div>
-            My posts
-            <div className={s.addPost}>
+        <div className={c.myPost}>
+            <h4>
+                My posts
+            </h4>
+            <div className={c.addPost}>
                 <textarea/>
                 <button>Add Post</button>
             </div>
-            <Post message='Hi have are you?' like={15}/>
-            <Post message='Good!' like={20}/>
+            {postsElements}
         </div>
     )
 }

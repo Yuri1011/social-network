@@ -1,6 +1,16 @@
-.addPost{
+.addPost {
     display: flex;
+    padding-top: 5px;
 }
-.addPost button{
+
+.addPost button {
     color: tomato;
+}
+
+.myPost {
+    padding: 10px;
+}
+
+.myPost h4 {
+    margin: 0;
 }
