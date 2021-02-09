@@ -1,19 +1,21 @@
+import c from './Navigation.module.css';
+
 export const Navigation = () => {
     return (
-        <nav className='nav'>
-            <div>
+        <nav className={c.nav}>
+            <div className={c.item}>
                 <a href="#">Profile</a>
             </div>
-            <div>
+            <div className={c.item}>
                 <a href="#">Messages</a>
             </div>
-            <div>
+            <div className={c.item}>
                 <a href="#">News</a>
             </div>
-            <div>
+            <div className={c.item}>
                 <a href="#">Music</a>
             </div>
-            <div>
+            <div className={c.item}>
                 <a href="#">Settings</a>
             </div>
         </nav>

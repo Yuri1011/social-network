@@ -1,0 +1,7 @@
+.header {
+    grid-area: h;
+    background-color: brown;
+    background-image: url("../../assets/images/logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

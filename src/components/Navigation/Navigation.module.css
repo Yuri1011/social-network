@@ -1,0 +1,15 @@
+.nav {
+    grid-area: n;
+    background: green;
+    font-size: 2vw;
+    padding-left: 15%;
+}
+
+.nav div {
+    padding: 3%;
+}
+
+.item a{
+    color: whitesmoke;
+    text-decoration: none;
+}

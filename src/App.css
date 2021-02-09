@@ -1,6 +1,7 @@
-body{
+body {
     background-color: wheat;
 }
+
 .App-wrapper {
     display: grid;
     grid-template-rows: 1fr 11fr;
@@ -12,32 +13,9 @@ body{
             'n c';
 }
 
-.header {
-    grid-area: h;
-    background-color: brown;
-    background-image: url("./assets/images/logo.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.nav {
-    grid-area: n;
-    background: green;
-    font-size: 2vw;
-    padding-left: 15%;
-}
-
-.nav div {
-    padding: 3%;
-}
-
-.content {
+.app-wrapper-content {
     grid-area: c;
     background: blue;
-}
-
-.content img {
-    width: 100%;
 }
 
 
