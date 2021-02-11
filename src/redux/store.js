@@ -1,3 +1,6 @@
+import {profileReducer} from "./profileReducer";
+import {dialogsReducer} from "./dialogsReducer";
+
 export let store = {
     _state: {
         profilePage: {
@@ -16,24 +19,21 @@ export let store = {
                 {message: 'Hello'},
                 {message: 'Hay'},
                 {message: 'Salyut'}
-            ]
+            ],
+            newMessageText: ''
         }
     },
-    getState(){return this._state},
     _callSubscriber() {
     },
-    addPost() {
-        let newPost = {id: 2, message: this._state.profilePage.newPostText, like: 1};
-        this._state.profilePage.posts.push(newPost);
-        this._state.profilePage.newPostText = '';
-        this._callSubscriber(this._state);
-
-    },
-    updateNewPostText(newText) {
-        this._state.profilePage.newPostText = newText;
-       this._callSubscriber(this._state);
+    getState() {
+        return this._state
     },
     subscribe(observer) {
         this._callSubscriber = observer;
+    },
+    dispatch(action) {
+        this._state.profilePage = profileReducer(this._state.profilePage, action);
+        this._state.dialogsPage = dialogsReducer(this._state.dialogsPage, action);
+        this._callSubscriber(this._state);
     }
 }
