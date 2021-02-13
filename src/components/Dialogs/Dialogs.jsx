@@ -1,10 +1,9 @@
 import c from './Dialogs.module.css'
 import {DialogsItems} from "./DialogItem/DialogsItems";
 import {Messages} from "./Message/Messages";
-import {sendMessageCreated, updateNewMessageTextCreated} from "../../redux/dialogsReducer";
 
 export const Dialogs = (props) => {
-    let state = props.store.getState().dialogsPage;
+    let state = props.dialogsPage;
 
     let dialogsElements = state.dialogs.map((elem) => <DialogsItems id={elem.id} name={elem.name}/>);
     let messagesElements = state.messages.map((elem) => <Messages message={elem.message}/>);
@@ -12,10 +11,10 @@ export const Dialogs = (props) => {
 
     let newMessageTextOnchange = (event) => {
         let text = event.target.value;
-        props.store.dispatch(updateNewMessageTextCreated(text));
+        props.updateNewMessageText(text);
     }
-    let sendMessage = () => {
-        props.store.dispatch(sendMessageCreated());
+    let onSendMessage = () => {
+        props.sendMessage();
     }
     return (
         <div className={c.dialogs}>
@@ -29,7 +28,7 @@ export const Dialogs = (props) => {
                         <textarea value={newMessageText} onChange={newMessageTextOnchange}/>
                     </div>
                     <div>
-                        <button onClick={sendMessage}>SEND</button>
+                        <button onClick={onSendMessage}>SEND</button>
                     </div>
                 </div>
             </div>
