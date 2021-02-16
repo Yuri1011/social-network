@@ -16,9 +16,9 @@ export let store = {
                 {id: 3, name: 'Lyubov'}
             ],
             messages: [
-                {message: 'Hello'},
-                {message: 'Hay'},
-                {message: 'Salyut'}
+                {id: 1, message: 'Hello'},
+                {id: 2, message: 'Hay'},
+                {id: 3, message: 'Salyut'}
             ],
             newMessageText: ''
         }
