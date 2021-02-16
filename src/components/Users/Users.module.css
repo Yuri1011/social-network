@@ -9,6 +9,10 @@
     padding: 20px;
 }
 
-.dialog{
+.dialog {
     width: 100%;
+}
+
+.selectedPage {
+    font-weight: bold;
 }
