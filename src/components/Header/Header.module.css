@@ -5,3 +5,17 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.block {
+    position: relative;
+}
+
+.loginBlock {
+    position: absolute;
+    right: 5px;
+    width: max-content;
+}
+
+.loginBlock a {
+    color: darksalmon;
+}
