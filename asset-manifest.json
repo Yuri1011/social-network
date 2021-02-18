@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/social-network/static/css/main.131aca2d.chunk.css",
-    "main.js": "/social-network/static/js/main.ca057559.chunk.js",
-    "main.js.map": "/social-network/static/js/main.ca057559.chunk.js.map",
-    "runtime-main.js": "/social-network/static/js/runtime-main.3e0b76ed.js",
-    "runtime-main.js.map": "/social-network/static/js/runtime-main.3e0b76ed.js.map",
-    "static/js/2.ec252b9a.chunk.js": "/social-network/static/js/2.ec252b9a.chunk.js",
-    "static/js/2.ec252b9a.chunk.js.map": "/social-network/static/js/2.ec252b9a.chunk.js.map",
-    "static/js/3.4e489719.chunk.js": "/social-network/static/js/3.4e489719.chunk.js",
-    "static/js/3.4e489719.chunk.js.map": "/social-network/static/js/3.4e489719.chunk.js.map",
+    "main.css": "/social-network/static/css/main.7527bd8f.chunk.css",
+    "main.js": "/social-network/static/js/main.7e18cf74.chunk.js",
+    "main.js.map": "/social-network/static/js/main.7e18cf74.chunk.js.map",
+    "runtime-main.js": "/social-network/static/js/runtime-main.91d64783.js",
+    "runtime-main.js.map": "/social-network/static/js/runtime-main.91d64783.js.map",
+    "static/js/2.76b702ce.chunk.js": "/social-network/static/js/2.76b702ce.chunk.js",
+    "static/js/2.76b702ce.chunk.js.map": "/social-network/static/js/2.76b702ce.chunk.js.map",
+    "static/js/3.2f3f7735.chunk.js": "/social-network/static/js/3.2f3f7735.chunk.js",
+    "static/js/3.2f3f7735.chunk.js.map": "/social-network/static/js/3.2f3f7735.chunk.js.map",
     "index.html": "/social-network/index.html",
-    "static/css/main.131aca2d.chunk.css.map": "/social-network/static/css/main.131aca2d.chunk.css.map",
-    "static/js/2.ec252b9a.chunk.js.LICENSE.txt": "/social-network/static/js/2.ec252b9a.chunk.js.LICENSE.txt",
+    "static/css/main.7527bd8f.chunk.css.map": "/social-network/static/css/main.7527bd8f.chunk.css.map",
+    "static/js/2.76b702ce.chunk.js.LICENSE.txt": "/social-network/static/js/2.76b702ce.chunk.js.LICENSE.txt",
+    "static/media/Gear-0.4s-200px.8a393f63.svg": "/social-network/static/media/Gear-0.4s-200px.8a393f63.svg",
+    "static/media/avatar.65d0f7cf.jpg": "/social-network/static/media/avatar.65d0f7cf.jpg",
+    "static/media/Header.module.css": "/social-network/static/media/logo.8a98c3eb.jpg",
     "static/media/steampunk.053b7fa5.jpg": "/social-network/static/media/steampunk.053b7fa5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e0b76ed.js",
-    "static/js/2.ec252b9a.chunk.js",
-    "static/css/main.131aca2d.chunk.css",
-    "static/js/main.ca057559.chunk.js"
+    "static/js/runtime-main.91d64783.js",
+    "static/js/2.76b702ce.chunk.js",
+    "static/css/main.7527bd8f.chunk.css",
+    "static/js/main.7e18cf74.chunk.js"
   ]
 }
